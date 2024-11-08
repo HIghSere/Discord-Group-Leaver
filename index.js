@@ -1,7 +1,6 @@
 import axios from "axios";
 import { prompt } from "./util/prompt.js";
 import { Client } from "discord.js-selfbot-v13";
-import { channel } from "diagnostics_channel";
 const client = new Client({
     checkupdata: false
 });
